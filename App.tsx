@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/Header';
 import CaseList from './components/CaseList';
 import CaseForm from './components/CaseForm';
@@ -87,6 +88,7 @@ const App: React.FC = () => {
           />
         )}
       </main>
+      <Analytics />
     </div>
   );
 };
