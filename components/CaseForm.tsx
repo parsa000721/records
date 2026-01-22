@@ -133,6 +133,7 @@ const CaseForm: React.FC<CaseFormProps> = ({ initialData, onSave, onCancel }) =>
       title: "आधिकारिक कार्यवाही",
       fields: [
           { id: 'policeResult', label: 'पुलिस नतिजा चालान/एफआर नम्बर व दिनांक', type: 'text' },
+          { id: 'policeResult', label: 'कोर्ट नतिजा व दिनांक', type: 'text' },
           { id: 'courtSubmissionDate', label: 'कोर्ट में चालान व एफआर पेश करने की दिनांक', type: 'date' },
           { id: 'fslDetails', label: 'एफएसएल का विवरण', type: 'textarea', colSpan: 2 },
       ]
