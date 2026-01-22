@@ -127,6 +127,7 @@ const CaseForm: React.FC<CaseFormProps> = ({ initialData, onSave, onCancel }) =>
           { id: 'seizure', label: 'जब्ती', type: 'textarea' },
           { id: 'stolenProperty', label: 'मालमसरूखा', type: 'textarea' },
           { id: 'seizedPropertyAgain', label: 'माल व्याजाप्ता', type: 'textarea', colSpan: 2 },
+          { id: 'seizedPropertyAgain', label: 'अन्‍य विवरण', type: 'textarea', colSpan: 2 },
       ]
     },
     {
